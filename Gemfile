@@ -36,6 +36,8 @@ group :test do
   gem "guard-minitest",           "2.4.6"
 end
 gem "bootstrap-sass",  "3.4.1"
+gem "bcrypt",          "3.1.18"
+gem 'prism', '~> 0.19.0', platforms: :ruby
 
 # Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
