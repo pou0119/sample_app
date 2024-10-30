@@ -73,6 +73,7 @@ GEM
     autoprefixer-rails (10.4.19.0)
       execjs (~> 2)
     backport (1.2.0)
+    bcrypt (3.1.18)
     benchmark (0.3.0)
     bindex (0.8.1)
     bootsnap (1.16.0)
@@ -332,6 +333,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  bcrypt (= 3.1.18)
   bootsnap (= 1.16.0)
   bootstrap-sass (= 3.4.1)
   capybara (= 3.38.0)
@@ -343,6 +345,7 @@ DEPENDENCIES
   jbuilder (= 2.11.5)
   minitest (= 5.18.0)
   minitest-reporters (= 1.6.0)
+  prism (~> 0.19.0)
   puma (= 5.6.8)
   rails (= 7.0.4.3)
   rails-controller-testing (= 1.0.5)
